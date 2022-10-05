@@ -6,7 +6,7 @@ import csv
 header = ['title', 'category', 'domain', 'description',
           'more_info', 'recommended_action', 'link', 'apis']
 
-with open('parsed_data.csv', 'w', encoding='UTF8') as f:
+with open('cloudsploit-out.csv', 'w', encoding='UTF8') as f:
     writer = csv.writer(f)
 
     # write the header
